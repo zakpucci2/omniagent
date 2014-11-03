@@ -1,0 +1,26 @@
+.pagination { margin-top: 0px !important;}
+
+/*-------------- Other Popup -------------*/
+.popupOthers a {position:relative;}
+.popupOthers a span, .loadg {position:absolute;min-height:20px;width:150px;background:#333;display:none;z-index:20;left:-50px;padding-bottom:3px;border-radius:5px;}
+.popupOthers a:hover span {display:block}
+.popupOthers a span:hover {display:block}
+.popupOthers a:hover span  ul {padding:5px 0;margin:0;color:#fff}
+.popupOthers a:hover span  ul li {height:12px;padding:0 7px 3px 7px;margin:0;color:#fff;background:none !important; border:none  !important;width:136px;font-style:normal}
+.assign_by a {font-size:11px !important;font-style:italic  !important	}
+.assign_by a:hover{text-decoration:underline;font-size:11px;font-style:italic}
+
+.hgt {max-height:350px;overflow-y: auto}
+
+.merrorMsg { padding-top:7px;margin:0px !important; color:red;float:left}
+
+.modal-body-new {padding:0 !important;margin:0 !important}  
+.tablenew {margin-bottom: 0px !important; }
+.modal-body-new h4 {padding-left:20px;} 
+.topbar {width:100%;z-index:1000}
+
+.navbar-small { display:none}
+
+.topnavigation .dropdown-menu{ margin-left: 4px; background-color: #525252; border-top: none; box-shadow: 0 12px 10px rgba(0, 0, 0, 0.176); }
+.topnavigation .dropdown-menu > li > a{ color: #FFFFFF; }
+.topnavigation .navbar-nav .open > a{ border-radius: 6px 6px 0 0 !important; }

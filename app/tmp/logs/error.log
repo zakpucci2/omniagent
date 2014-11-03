@@ -1,0 +1,1862 @@
+2014-10-27 22:48:12 Error: [MissingViewException] View file "/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp',
+)
+Request URL: /demo/notifications/latestNotifications
+Stack Trace:
+#0 /home/omnihustle/public_html/demo/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(952): JsonView->render(NULL, NULL)
+#2 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /home/omnihustle/public_html/demo/app/Controller/AppController.php(64): Controller->redirect('/users/login_un...')
+#12 /home/omnihustle/public_html/demo/app/Controller/UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#17 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(NotificationsController), '/users/login', NULL, true)
+#21 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 /home/omnihustle/public_html/demo/app/Controller/AppController.php(153): Controller->redirect('/users/login')
+#26 /home/omnihustle/public_html/demo/app/Controller/AppController.php(46): AppController->_checkSession()
+#27 /home/omnihustle/public_html/demo/app/Controller/NotificationsController.php(23): AppController->beforeFilter()
+#28 [internal function]: NotificationsController->beforeFilter(Object(CakeEvent))
+#29 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#32 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(NotificationsController), Object(CakeRequest), Object(CakeResponse))
+#33 /home/omnihustle/public_html/demo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-10-27 22:48:12 Error: [MissingViewException] View file "/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp',
+)
+Request URL: /demo/tasks/latestInProgressTasks
+Stack Trace:
+#0 /home/omnihustle/public_html/demo/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(952): JsonView->render(NULL, NULL)
+#2 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /home/omnihustle/public_html/demo/app/Controller/AppController.php(64): Controller->redirect('/users/login_un...')
+#12 /home/omnihustle/public_html/demo/app/Controller/UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#17 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(TasksController), '/users/login', NULL, true)
+#21 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 /home/omnihustle/public_html/demo/app/Controller/AppController.php(153): Controller->redirect('/users/login')
+#26 /home/omnihustle/public_html/demo/app/Controller/AppController.php(46): AppController->_checkSession()
+#27 /home/omnihustle/public_html/demo/app/Controller/TasksController.php(23): AppController->beforeFilter()
+#28 [internal function]: TasksController->beforeFilter(Object(CakeEvent))
+#29 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#32 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#33 /home/omnihustle/public_html/demo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-10-27 22:48:13 Error: [MissingViewException] View file "/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp',
+)
+Request URL: /demo/messages/latestMessages
+Stack Trace:
+#0 /home/omnihustle/public_html/demo/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(952): JsonView->render(NULL, NULL)
+#2 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /home/omnihustle/public_html/demo/app/Controller/AppController.php(64): Controller->redirect('/users/login_un...')
+#12 /home/omnihustle/public_html/demo/app/Controller/UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#17 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(MessagesController), '/users/login', NULL, true)
+#21 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 /home/omnihustle/public_html/demo/app/Controller/AppController.php(153): Controller->redirect('/users/login')
+#26 /home/omnihustle/public_html/demo/app/Controller/AppController.php(46): AppController->_checkSession()
+#27 /home/omnihustle/public_html/demo/app/Controller/MessagesController.php(23): AppController->beforeFilter()
+#28 [internal function]: MessagesController->beforeFilter(Object(CakeEvent))
+#29 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#32 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#33 /home/omnihustle/public_html/demo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-10-27 22:49:45 Error: [MissingViewException] View file "/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp',
+)
+Request URL: /demo/notifications/latestNotifications
+Stack Trace:
+#0 /home/omnihustle/public_html/demo/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(952): JsonView->render(NULL, NULL)
+#2 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /home/omnihustle/public_html/demo/app/Controller/AppController.php(64): Controller->redirect('/users/login_un...')
+#12 /home/omnihustle/public_html/demo/app/Controller/UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#17 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(NotificationsController), '/users/login', NULL, true)
+#21 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 /home/omnihustle/public_html/demo/app/Controller/AppController.php(153): Controller->redirect('/users/login')
+#26 /home/omnihustle/public_html/demo/app/Controller/AppController.php(46): AppController->_checkSession()
+#27 /home/omnihustle/public_html/demo/app/Controller/NotificationsController.php(23): AppController->beforeFilter()
+#28 [internal function]: NotificationsController->beforeFilter(Object(CakeEvent))
+#29 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#32 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(NotificationsController), Object(CakeRequest), Object(CakeResponse))
+#33 /home/omnihustle/public_html/demo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-10-27 22:49:45 Error: [MissingViewException] View file "/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp',
+)
+Request URL: /demo/users/latestClientInvites
+Stack Trace:
+#0 /home/omnihustle/public_html/demo/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(952): JsonView->render(NULL, NULL)
+#2 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /home/omnihustle/public_html/demo/app/Controller/AppController.php(64): Controller->redirect('/users/login_un...')
+#12 /home/omnihustle/public_html/demo/app/Controller/UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#17 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login', NULL, true)
+#21 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 /home/omnihustle/public_html/demo/app/Controller/AppController.php(153): Controller->redirect('/users/login')
+#26 /home/omnihustle/public_html/demo/app/Controller/AppController.php(46): AppController->_checkSession()
+#27 /home/omnihustle/public_html/demo/app/Controller/UsersController.php(23): AppController->beforeFilter()
+#28 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#29 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#32 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#33 /home/omnihustle/public_html/demo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-10-27 22:49:45 Error: [MissingViewException] View file "/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp',
+)
+Request URL: /demo/messages/latestMessages
+Stack Trace:
+#0 /home/omnihustle/public_html/demo/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(952): JsonView->render(NULL, NULL)
+#2 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /home/omnihustle/public_html/demo/app/Controller/AppController.php(64): Controller->redirect('/users/login_un...')
+#12 /home/omnihustle/public_html/demo/app/Controller/UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#17 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(MessagesController), '/users/login', NULL, true)
+#21 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 /home/omnihustle/public_html/demo/app/Controller/AppController.php(153): Controller->redirect('/users/login')
+#26 /home/omnihustle/public_html/demo/app/Controller/AppController.php(46): AppController->_checkSession()
+#27 /home/omnihustle/public_html/demo/app/Controller/MessagesController.php(23): AppController->beforeFilter()
+#28 [internal function]: MessagesController->beforeFilter(Object(CakeEvent))
+#29 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#32 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#33 /home/omnihustle/public_html/demo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-10-27 22:49:45 Error: [MissingViewException] View file "/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp',
+)
+Request URL: /demo/users/latestInvites
+Stack Trace:
+#0 /home/omnihustle/public_html/demo/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(952): JsonView->render(NULL, NULL)
+#2 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /home/omnihustle/public_html/demo/app/Controller/AppController.php(64): Controller->redirect('/users/login_un...')
+#12 /home/omnihustle/public_html/demo/app/Controller/UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#17 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login', NULL, true)
+#21 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 /home/omnihustle/public_html/demo/app/Controller/AppController.php(153): Controller->redirect('/users/login')
+#26 /home/omnihustle/public_html/demo/app/Controller/AppController.php(46): AppController->_checkSession()
+#27 /home/omnihustle/public_html/demo/app/Controller/UsersController.php(23): AppController->beforeFilter()
+#28 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#29 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#32 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#33 /home/omnihustle/public_html/demo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-10-27 22:49:45 Error: [MissingViewException] View file "/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp',
+)
+Request URL: /demo/support_tickets/latestSupportTickets
+Stack Trace:
+#0 /home/omnihustle/public_html/demo/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(952): JsonView->render(NULL, NULL)
+#2 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /home/omnihustle/public_html/demo/app/Controller/AppController.php(64): Controller->redirect('/users/login_un...')
+#12 /home/omnihustle/public_html/demo/app/Controller/UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#17 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(SupportTicketsController), '/users/login', NULL, true)
+#21 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 /home/omnihustle/public_html/demo/app/Controller/AppController.php(153): Controller->redirect('/users/login')
+#26 /home/omnihustle/public_html/demo/app/Controller/AppController.php(46): AppController->_checkSession()
+#27 /home/omnihustle/public_html/demo/app/Controller/SupportTicketsController.php(23): AppController->beforeFilter()
+#28 [internal function]: SupportTicketsController->beforeFilter(Object(CakeEvent))
+#29 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#32 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SupportTicketsController), Object(CakeRequest), Object(CakeResponse))
+#33 /home/omnihustle/public_html/demo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-10-27 22:50:18 Error: [MissingViewException] View file "/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp',
+)
+Request URL: /demo/messages/latestMessages
+Stack Trace:
+#0 /home/omnihustle/public_html/demo/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(952): JsonView->render(NULL, NULL)
+#2 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /home/omnihustle/public_html/demo/app/Controller/AppController.php(64): Controller->redirect('/users/login_un...')
+#12 /home/omnihustle/public_html/demo/app/Controller/UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#17 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(MessagesController), '/users/login', NULL, true)
+#21 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 /home/omnihustle/public_html/demo/app/Controller/AppController.php(153): Controller->redirect('/users/login')
+#26 /home/omnihustle/public_html/demo/app/Controller/AppController.php(46): AppController->_checkSession()
+#27 /home/omnihustle/public_html/demo/app/Controller/MessagesController.php(23): AppController->beforeFilter()
+#28 [internal function]: MessagesController->beforeFilter(Object(CakeEvent))
+#29 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#32 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#33 /home/omnihustle/public_html/demo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-10-27 22:50:19 Error: [MissingViewException] View file "/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp',
+)
+Request URL: /demo/notifications/latestNotifications
+Stack Trace:
+#0 /home/omnihustle/public_html/demo/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(952): JsonView->render(NULL, NULL)
+#2 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /home/omnihustle/public_html/demo/app/Controller/AppController.php(64): Controller->redirect('/users/login_un...')
+#12 /home/omnihustle/public_html/demo/app/Controller/UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#17 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(NotificationsController), '/users/login', NULL, true)
+#21 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 /home/omnihustle/public_html/demo/app/Controller/AppController.php(153): Controller->redirect('/users/login')
+#26 /home/omnihustle/public_html/demo/app/Controller/AppController.php(46): AppController->_checkSession()
+#27 /home/omnihustle/public_html/demo/app/Controller/NotificationsController.php(23): AppController->beforeFilter()
+#28 [internal function]: NotificationsController->beforeFilter(Object(CakeEvent))
+#29 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#32 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(NotificationsController), Object(CakeRequest), Object(CakeResponse))
+#33 /home/omnihustle/public_html/demo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-10-27 22:50:19 Error: [MissingViewException] View file "/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/omnihustle/public_html/demo/app/View/Users/json/login_unlock.ctp',
+)
+Request URL: /demo/support_tickets/latestSupportTickets
+Stack Trace:
+#0 /home/omnihustle/public_html/demo/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(952): JsonView->render(NULL, NULL)
+#2 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /home/omnihustle/public_html/demo/app/Controller/AppController.php(64): Controller->redirect('/users/login_un...')
+#12 /home/omnihustle/public_html/demo/app/Controller/UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#17 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 /home/omnihustle/public_html/demo/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 /home/omnihustle/public_html/demo/lib/Cake/Controller/Component/RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(SupportTicketsController), '/users/login', NULL, true)
+#21 /home/omnihustle/public_html/demo/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 /home/omnihustle/public_html/demo/app/Controller/AppController.php(153): Controller->redirect('/users/login')
+#26 /home/omnihustle/public_html/demo/app/Controller/AppController.php(46): AppController->_checkSession()
+#27 /home/omnihustle/public_html/demo/app/Controller/SupportTicketsController.php(23): AppController->beforeFilter()
+#28 [internal function]: SupportTicketsController->beforeFilter(Object(CakeEvent))
+#29 /home/omnihustle/public_html/demo/lib/Cake/Event/CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 /home/omnihustle/public_html/demo/lib/Cake/Controller/Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(182): Controller->startupProcess()
+#32 /home/omnihustle/public_html/demo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SupportTicketsController), Object(CakeRequest), Object(CakeResponse))
+#33 /home/omnihustle/public_html/demo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-10-29 18:30:28 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Accès refusé pour l\'utilisateur: \'vishal\'@\'@localhost\' (mot de passe: OUI)',
+  'enabled' => true,
+)
+Request URL: /projects/ominihustle/demo/
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Model\Model.php(3476): ConnectionManager::getDataSource('default')
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Model\Model.php(3498): Model->setSource('notification_ty...')
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#6 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#7 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(189): Model->find('all')
+#8 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(69): AppController->fetchNotificationTypes()
+#9 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#10 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#12 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#13 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-10-29 18:32:56 Error: [MissingTableException] Table notification_types for model NotificationType was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'notification_types',
+  'class' => 'NotificationType',
+  'ds' => 'default',
+)
+Request URL: /projects/ominihustle/demo/
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Model\Model.php(3498): Model->setSource('notification_ty...')
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(189): Model->find('all')
+#4 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(69): AppController->fetchNotificationTypes()
+#5 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#6 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#8 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-10-30 18:57:11 Error: [MissingActionException] Action TasksController::admin_edittask123() could not be found.
+Exception Attributes: array (
+  'controller' => 'TasksController',
+  'action' => 'admin_edittask123',
+)
+Request URL: /projects/ominihustle/demo/admin/tasks/edittask123/20
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-30 18:58:03 Error: [MissingActionException] Action TasksController::admin_edittask123() could not be found.
+Exception Attributes: array (
+  'controller' => 'TasksController',
+  'action' => 'admin_edittask123',
+)
+Request URL: /projects/ominihustle/demo/admin/tasks/edittask123/20
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-31 18:38:47 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/users/latestClientInvites
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#28 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-10-31 18:38:47 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/users/latestInvites
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#28 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-10-31 18:38:48 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/messages/latestMessages
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(MessagesController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\MessagesController.php(23): AppController->beforeFilter()
+#28 [internal function]: MessagesController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-10-31 18:38:49 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/notifications/latestNotifications
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(NotificationsController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\NotificationsController.php(23): AppController->beforeFilter()
+#28 [internal function]: NotificationsController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(NotificationsController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-10-31 18:38:49 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/support_tickets/latestSupportTickets
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(SupportTicketsController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\SupportTicketsController.php(23): AppController->beforeFilter()
+#28 [internal function]: SupportTicketsController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(SupportTicketsController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-10-31 18:38:54 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/superadmin/tasks/edittask/MjQ%3D
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(TasksController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\TasksController.php(23): AppController->beforeFilter()
+#28 [internal function]: TasksController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-10-31 18:40:58 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/users/latestInvites
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#28 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-10-31 18:40:59 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/messages/latestMessages
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(MessagesController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\MessagesController.php(23): AppController->beforeFilter()
+#28 [internal function]: MessagesController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-10-31 18:40:59 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/users/latestClientInvites
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#28 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-10-31 18:41:00 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/support_tickets/latestSupportTickets
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(SupportTicketsController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\SupportTicketsController.php(23): AppController->beforeFilter()
+#28 [internal function]: SupportTicketsController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(SupportTicketsController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-10-31 18:41:00 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/notifications/latestNotifications
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(NotificationsController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\NotificationsController.php(23): AppController->beforeFilter()
+#28 [internal function]: NotificationsController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(NotificationsController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-11-01 11:29:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/js/dist/jquery-migrate.min.map
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-01 11:29:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/js/underscore-min.map
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-01 12:14:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/js/dist/jquery-migrate.min.map
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-01 12:14:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/js/underscore-min.map
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-01 12:46:46 Error: [MissingActionException] Action UsersController::updatetask() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'updatetask',
+)
+Request URL: /projects/ominihustle/demo/users/updatetask
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-01 12:54:41 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\updatetask.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\updatetask.ctp',
+)
+Request URL: /projects/ominihustle/demo/users/updatetask
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-01 12:57:13 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\updatetask.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\updatetask.ctp',
+)
+Request URL: /projects/ominihustle/demo/users/updatetask
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-01 13:21:44 Error: Fatal Error (4): syntax error, unexpected '}' in [D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php, line 1943]
+2014-11-01 13:21:44 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /projects/ominihustle/demo/users/editprofile
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\wamp\\www\\pro...', 1943)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\wamp\\www\\pro...', 1943, Array)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\wamp\\www\\pro...', 1943, Array)
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-01 13:45:47 Error: Fatal Error (1): Call to a member function save() on a non-object in [D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php, line 1961]
+2014-11-01 13:45:47 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /projects/ominihustle/demo/users/updatetask
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\\wamp\\www\\pro...', 1961)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\\wamp\\www\\pro...', 1961, Array)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\\wamp\\www\\pro...', 1961, Array)
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-01 14:41:58 Error: Fatal Error (1): Call to a member function query() on a non-object in [D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php, line 1973]
+2014-11-01 14:41:58 Error: [FatalErrorException] Call to a member function query() on a non-object
+Request URL: /projects/ominihustle/demo/users/updatetask
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\\wamp\\www\\pro...', 1973)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\\wamp\\www\\pro...', 1973, Array)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\\wamp\\www\\pro...', 1973, Array)
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-01 15:00:19 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/notifications/latestNotifications
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(NotificationsController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\NotificationsController.php(23): AppController->beforeFilter()
+#28 [internal function]: NotificationsController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(NotificationsController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-11-01 15:00:22 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/messages/latestMessages
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(MessagesController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\MessagesController.php(23): AppController->beforeFilter()
+#28 [internal function]: MessagesController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-11-01 15:00:23 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/tasks/latestInProgressTasks
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(TasksController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\TasksController.php(23): AppController->beforeFilter()
+#28 [internal function]: TasksController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-11-01 15:08:33 Error: Fatal Error (1): Call to a member function save() on a non-object in [D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php, line 1979]
+2014-11-01 15:08:33 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /projects/ominihustle/demo/users/updatetask
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\\wamp\\www\\pro...', 1979)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\\wamp\\www\\pro...', 1979, Array)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\\wamp\\www\\pro...', 1979, Array)
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-01 15:19:26 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/messages/latestMessages
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(MessagesController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\MessagesController.php(23): AppController->beforeFilter()
+#28 [internal function]: MessagesController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-11-01 15:19:27 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/notifications/latestNotifications
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(NotificationsController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\NotificationsController.php(23): AppController->beforeFilter()
+#28 [internal function]: NotificationsController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(NotificationsController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-11-01 15:19:28 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/support_tickets/latestSupportTickets
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(SupportTicketsController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\SupportTicketsController.php(23): AppController->beforeFilter()
+#28 [internal function]: SupportTicketsController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(SupportTicketsController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-11-02 04:27:24 Error: Fatal Error (1): Maximum execution time of 120 seconds exceeded in [D:\wamp\www\projects\ominihustle\demo\lib\Cake\Model\Datasource\CakeSession.php, line 628]
+2014-11-02 04:27:26 Error: [FatalErrorException] Maximum execution time of 120 seconds exceeded
+Request URL: /projects/ominihustle/demo/notifications/latestNotifications
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'D:\\wamp\\www\\pro...', 628)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'D:\\wamp\\www\\pro...', 628, Array)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'D:\\wamp\\www\\pro...', 628, Array)
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-02 04:28:37 Error: Fatal Error (1): Maximum execution time of 120 seconds exceeded in [D:\wamp\www\projects\ominihustle\demo\lib\Cake\Model\Datasource\CakeSession.php, line 628]
+2014-11-02 04:28:37 Error: [FatalErrorException] Maximum execution time of 120 seconds exceeded
+Request URL: /projects/ominihustle/demo/messages/latestMessages
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'D:\\wamp\\www\\pro...', 628)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'D:\\wamp\\www\\pro...', 628, Array)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'D:\\wamp\\www\\pro...', 628, Array)
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-02 04:58:42 Error: [SocketException] Could not send email.
+Request URL: /projects/ominihustle/demo/superadmin/users/addadmin
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Network\Email\MailTransport.php(51): MailTransport->_mail('puneet01.chd@gm...', 'Your Administra...', '--19dbdb258cbb0...', 'From: OmniHustl...', NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Network\Email\CakeEmail.php(1122): MailTransport->send(Object(CakeEmail))
+#2 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(1032): CakeEmail->send('<table cellspac...')
+#3 [internal function]: UsersController->superadmin_addadmin()
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#7 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-11-02 04:59:21 Error: [MissingControllerException] Controller class SuperadminController could not be found.
+Exception Attributes: array (
+  'class' => 'SuperadminController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/superadmin/
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 05:01:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/img/profile_photo150x150/null
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 05:01:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/img/profile_photo150x150/null
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 05:48:32 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/notifications/latestNotifications
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(NotificationsController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\NotificationsController.php(23): AppController->beforeFilter()
+#28 [internal function]: NotificationsController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(NotificationsController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-11-02 05:48:33 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/users/latestInvites
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#28 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-11-02 05:48:33 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/support_tickets/latestSupportTickets
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(SupportTicketsController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\SupportTicketsController.php(23): AppController->beforeFilter()
+#28 [internal function]: SupportTicketsController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(SupportTicketsController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-11-02 05:48:34 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/messages/latestMessages
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(MessagesController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\MessagesController.php(23): AppController->beforeFilter()
+#28 [internal function]: MessagesController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-11-02 05:52:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/img/profile_photo150x150/null
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 05:52:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/img/profile_photo150x150/null
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 05:59:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/js/underscore-min.map
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 05:59:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/js/dist/jquery-migrate.min.map
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 06:04:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/js/underscore-min.map
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 06:04:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/js/dist/jquery-migrate.min.map
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 08:06:04 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [D:\wamp\www\projects\ominihustle\demo\app\Controller\AdminsController.php, line 920]
+2014-11-02 08:06:04 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /projects/ominihustle/demo/admins/acceptRejectReleaseRequest
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\wamp\\www\\pro...', 920)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\wamp\\www\\pro...', 920, Array)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\wamp\\www\\pro...', 920, Array)
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-02 09:33:59 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`omni_app`.`user_messages`, CONSTRAINT `fk_parentmessage_id` FOREIGN KEY (`parent_message_id`) REFERENCES `messages` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+Request URL: /projects/ominihustle/demo/admins/acceptRejectReleaseRequest
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `om...', Array)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `om...')
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Model\Model.php(1832): DboSource->create(Object(UserMessage), Array, Array)
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Model\Model.php(2392): Model->save(Array, Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Model\Model.php(2178): Model->saveAssociated(Array, Array)
+#6 D:\wamp\www\projects\ominihustle\demo\app\Controller\AdminsController.php(931): Model->saveAll(Array)
+#7 [internal function]: AdminsController->acceptRejectReleaseRequest()
+#8 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-02 09:40:50 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [D:\wamp\www\projects\ominihustle\demo\app\Controller\AdminsController.php, line 944]
+2014-11-02 09:40:50 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /projects/ominihustle/demo/admin/admins/dashboard
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\wamp\\www\\pro...', 944)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\wamp\\www\\pro...', 944, Array)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\wamp\\www\\pro...', 944, Array)
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-02 09:58:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/js/underscore-min.map
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 09:58:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/js/dist/jquery-migrate.min.map
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 10:05:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/js/underscore-min.map
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 10:05:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/js/dist/jquery-migrate.min.map
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 10:06:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/js/underscore-min.map
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 10:06:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/js/dist/jquery-migrate.min.map
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 10:06:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/js/underscore-min.map
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 10:06:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/js/dist/jquery-migrate.min.map
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 10:07:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/js/underscore-min.map
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 10:07:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/js/dist/jquery-migrate.min.map
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 18:53:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /projects/ominihustle/demo/img/profile_photo150x150/null
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-02 19:08:56 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/messages/latestMessages
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(MessagesController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\MessagesController.php(23): AppController->beforeFilter()
+#28 [internal function]: MessagesController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-11-02 19:08:56 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/support_tickets/latestSupportTickets
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(SupportTicketsController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\SupportTicketsController.php(23): AppController->beforeFilter()
+#28 [internal function]: SupportTicketsController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(SupportTicketsController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}
+2014-11-02 19:08:57 Error: [MissingViewException] View file "D:\wamp\www\projects\ominihustle\demo\app\View\Users\json\login_unlock.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\wamp\\www\\projects\\ominihustle\\demo\\app\\View\\Users\\json\\login_unlock.ctp',
+)
+Request URL: /projects/ominihustle/demo/notifications/latestNotifications
+Stack Trace:
+#0 D:\wamp\www\projects\ominihustle\demo\lib\Cake\View\JsonView.php(107): View->_getViewFileName(NULL)
+#1 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(952): JsonView->render(NULL, NULL)
+#2 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login_un...', Array)
+#6 [internal function]: RequestHandlerComponent->beforeRedirect(Object(UsersController), '/users/login_un...', NULL, true)
+#7 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#10 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#11 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(64): Controller->redirect('/users/login_un...')
+#12 D:\wamp\www\projects\ominihustle\demo\app\Controller\UsersController.php(23): AppController->beforeFilter()
+#13 [internal function]: UsersController->beforeFilter(Object(CakeEvent))
+#14 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#19 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Component\RequestHandlerComponent.php(271): Object->requestAction('/users/login', Array)
+#20 [internal function]: RequestHandlerComponent->beforeRedirect(Object(NotificationsController), '/users/login', NULL, true)
+#21 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#22 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#23 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#24 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(765): CakeEventManager->dispatch(Object(CakeEvent))
+#25 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(153): Controller->redirect('/users/login')
+#26 D:\wamp\www\projects\ominihustle\demo\app\Controller\AppController.php(46): AppController->_checkSession()
+#27 D:\wamp\www\projects\ominihustle\demo\app\Controller\NotificationsController.php(23): AppController->beforeFilter()
+#28 [internal function]: NotificationsController->beforeFilter(Object(CakeEvent))
+#29 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#30 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Controller\Controller.php(674): CakeEventManager->dispatch(Object(CakeEvent))
+#31 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#32 D:\wamp\www\projects\ominihustle\demo\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(NotificationsController), Object(CakeRequest), Object(CakeResponse))
+#33 D:\wamp\www\projects\ominihustle\demo\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#34 {main}

@@ -1,0 +1,51 @@
+#activateModal .prettycheckbox.blue a{background: url(../../img/checkbox/prettyCheckable-gray.png) no-repeat 0px 0px; margin: -6px; margin-left: 6px;}
+.prettycheckbox.blue a.checked{background-position: 0 -60px;}
+#activateModal .prettycheckbox label, .prettyradio label{display: none !important; float: none !important;}
+.prettycheckbox a, .prettyradio a{height: 26px !important;}
+.hazard-setting .prettycheckbox label{margin-top: 0px !important;}
+.assign-checkbox .prettycheckbox label{margin-top: -2px !important; display: none;}
+.even-color .chbg-color{background-color: #fff;}
+.odd-color .chbg-color{background-color: #F0F0F0;}
+#hazardModal{width: 560px !important;}
+#hazardModal .prettycheckbox.blue a{background: url(../../img/checkbox/prettyCheckable-gray.png);}
+#activateModal .modal-body{padding: 0px;}
+#activateModal .scroll-setting{max-height: 400px; overflow-y: scroll; }
+
+.indent-1{margin-left: 3% !important;}
+.indent-1 .actions{position: relative; left: -5px;}
+.indent-2{margin-left: 5% !important;}
+.indent-2 .actions{position: relative; left: -8px;}
+#detail-page .black-btn, #detail-page .black-btn:hover, #detail-page .black-btn:focus, #detail-page .black-btn:active, #detail-page .black-btn.active{color: #fff; background-color: #3D3D3D; border-color: #1D1D1D;}
+.glyphicon-qa-icon{padding:5px 6px; border:1px solid #e2e2e2; background-color:#4F81BD; color:#ffffff; font-size:13px; border-radius:6px;}
+.glyphicon-data-icon{padding:5px 6px; border:1px solid #e2e2e2; background-color:#4F81BD; color:#ffffff; font-size:11px; border-radius:6px;}
+.glyphicon-diamond-bullet{background: url("../../img/diamond.png") no-repeat scroll center center; padding:14px 8px; margin-right: 4px;}
+.glyphicon-dot-bullet{background: url("../../img/black-circle.png") no-repeat scroll center center; padding:14px 8px; margin-right: 4px;}
+.glyphicon-ok-sign{padding-right: 5px;}
+.even-color{background-color: #fff;}
+.odd-color{background-color: #F0F0F0;}
+.note, .caution, .warning{border: 2px dashed #000; margin-bottom: 10px; padding: 10px; position: relative;}
+.note .lead, .caution .lead, .warning .lead{margin-bottom: 4px;}
+
+#detail-page .heading{padding-bottom: 10px;}
+#detail-page .heading span{color: #999;}
+#detail-page .panel-body{border: 1px solid #ccc !important;}
+#detail-page .comp-img{height: 50px; margin: 15px;}
+#detail-page .group{padding: 10px;}
+#detail-page .group div{float: left; display:inline-block;}
+#detail-page .group div:nth-child(2){padding:6px 0px;}
+#detail-page .left-side{max-width: 40%; min-width: 0%; text-align: justify; padding-right: 5px;}
+#detail-page .dotted-line{padding-left: 0px; float: left; overflow: hidden; background: url('../../img/dot.jpg') repeat-x left 15px; max-width: 80%; width: 100%;}
+#detail-page .right-side{max-width: 40%; min-width: 0%; text-align: justify; float: right !important; padding-left: 5px !important;}
+#detail-page .actions{width: 13%; float: right !important;}
+#detail-page .actions div:nth-child(2), .dotted-line div:nth-child(2){padding: 0px !important;}
+#detail-page .actions .pull-right div:nth-child(2){padding: 3px !important;}
+#detail-page .caution{background-color: #f0ad4e;}
+#detail-page .warning{background-color: #d2322d;}
+#detail-page .list-inline{margin-bottom: 3px; position: absolute; width: 100%;}
+#detail-page .list-inline>li{padding: 0px;}
+#detail-page .list-inline>li:nth-child(11){margin-left: 15%;}
+#detail-page .trans_btn{border: 3px solid #E2E2E2; border-radius: 6px; background-color: yellow; width: 45px; height: 45px; color: #000000; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); margin: 0 auto 15px;}
+#detail-page .trans_btn h4{-webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg);}
+
+/* ------- View incomplete model setting ----------- */
+.my-list>li{list-style: disc !important;}

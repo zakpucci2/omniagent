@@ -1,0 +1,86 @@
+/*!
+ * Bootstrap Modal
+ *
+ * Copyright Jordan Schroter
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Boostrap 3 patch for for bootstrap-modal. Include BEFORE bootstrap-modal.css!
+ */
+
+body.modal-open, 
+.modal-open .navbar-fixed-top, 
+.modal-open .navbar-fixed-bottom {
+    margin-right: 0;
+}
+
+
+
+.modal {
+    margin-top:10%;
+    left: 50%;
+    bottom: auto;
+    right: auto;
+    padding: 0;
+    width: 500px;
+    margin-left: -250px;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-clip: padding-box;
+}
+
+.modal.container {
+    max-width: none;
+}
+
+.modal-footer{
+    margin-top:0px !important;
+    background-color: #F4F4F4;
+    border-radius: 0 0 6px 6px;
+}
+.modal-header {
+    background-color: #F4F4F4;
+    border-radius: 6px 6px 0 0;
+}
+
+button::-moz-focus-inner,a::-moz-focus-inner,input::-moz-focus-inner {
+    border: 0;
+}
+
+a, a:hover, a:active, a:focus{
+    outline: 0 none !important;
+}
+
+
+.modal-header h3 {
+    line-height: 30px;
+    margin: 0;
+}
+.stack-custom2{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+.progress.active .bar {
+    animation: 2s linear 0s normal none infinite progress-bar-stripes;
+}
+.progress-striped .bar {
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+    background-size: 40px 40px;
+}
+.progress-striped .bar {
+    background-color: #428BCA;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+    color: #FFFFFF;
+    float: left;
+    font-size: 12px;
+    height: 100%;
+    text-align: center;
+    transition: width 0.6s ease 0s;
+    width: 0;
+}

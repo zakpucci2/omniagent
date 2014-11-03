@@ -1,0 +1,103 @@
+/**
+ * MacOS X like theme for elFinder.
+ * Required jquery ui "smoothness" theme.
+ *
+ * @author Dmitry (dio) Levashov
+ **/
+
+/* dialogs */
+.std42-dialog, .std42-dialog .ui-widget-content { background-color:#ededed; background-image:none; background-clip: content-box; }
+
+/* navbar */
+.elfinder .elfinder-navbar { background:#dde4eb; }
+.elfinder-navbar .ui-state-hover  { background:transparent; border-color:transparent; }
+.elfinder-navbar .ui-state-active { background: #3875d7;    border-color:#3875d7; color:#fff; }
+/* disabled elfinder */
+.elfinder-disabled .elfinder-navbar .ui-state-active { background: #dadada; border-color:#aaa; color:#fff; }
+
+
+/* current directory */
+/* selected file in "icons" view */
+.elfinder-cwd-view-icons .elfinder-cwd-file .ui-state-hover { background:#ccc; }
+/* list view*/
+.elfinder-cwd table tr:nth-child(odd) { background-color:#edf3fe; }
+.elfinder-cwd table tr { border-top:1px solid #fff; }
+
+/* common selected background/color */
+.elfinder-cwd-view-icons .elfinder-cwd-file .elfinder-cwd-filename.ui-state-hover,
+.elfinder-cwd table td.ui-state-hover,
+.elfinder-button-menu .ui-state-hover { background: #3875d7; color:#fff;}
+/* disabled elfinder */
+.elfinder-disabled .elfinder-cwd-view-icons .elfinder-cwd-file .elfinder-cwd-filename.ui-state-hover,
+.elfinder-disabled .elfinder-cwd table td.ui-state-hover { background:#dadada;}
+
+/* statusbar */
+.elfinder .elfinder-statusbar { color:#555; }
+.elfinder .elfinder-statusbar a { text-decoration:none; color:#555;}
+
+
+.std42-dialog .elfinder-help, .std42-dialog .elfinder-help .ui-widget-content { background:#fff;}
+
+/* contextmenu */
+.elfinder-contextmenu .ui-state-hover { background: #3875d7; color:#fff; }
+.elfinder-contextmenu .ui-state-hover .elfinder-contextmenu-arrow { background-image:url('../img/arrows-active.png'); }
+
+.progress_modify{
+    margin-top:2px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+
+}
+.g1_11{
+    display: none;   
+}
+
+.pin-cursor-pointer{
+    cursor: pointer;
+}
+
+.log-even{
+    background-color:#f9f9f9;
+}
+
+.log-border{
+    border: 1px solid #ddd;
+}
+.log-margin{
+    margin-bottom: 5px;   
+}
+.log-msg-color{
+    background-color:#f9f9f9; 
+}
+.quick-zero{
+    margin:0;
+    height: 0;
+    padding: 0;
+}
+.quick-zero-h{
+    margin:0;
+    height: 0;
+    padding: 0;
+}
+
+
+.g1_00{
+    width: 100%;
+    padding: 5px;
+    overflow: hidden;
+
+
+}
+
+.disable-radius{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #d1d1d1;
+    vertical-align: middle;
+    line-height: 2;
+    text-align: left;
+}
+.g1_11_45{
+    display: none;
+}

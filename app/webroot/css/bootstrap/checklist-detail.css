@@ -1,0 +1,30 @@
+#checklist-detail .well{background-color: #FFFFFF; border: none; box-shadow: none; padding: 10px; margin-bottom: 10px;}
+#checklist-detail .col-xs-8{width: 70%;}
+#checklist-detail .col-xs-2{width: 15%;}
+#checklist-detail .note{border: 2px dashed #e2e2e2;}
+#checklist-detail .caution{/*background-color: #FFFF00;*/ background-color: #f0ad4e; border: 2px dashed #e2e2e2;}
+#checklist-detail .warning{/*background-color: #FF0000;*/ background-color: #d2322d; border: 3px dashed #000000; color: #ffffff;}
+#checklist-detail .trans_btn{ border:3px solid #E2E2E2; border-radius: 6px; background-color: yellow; width: 45px; height: 45px; color:#000000; -webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);-ms-transform: rotate(45deg);-o-transform: rotate(45deg);transform: rotate(45deg); margin: 0 auto 15px;}
+#checklist-detail .trans_btn h4{-webkit-transform: rotate(-45deg);-moz-transform: rotate(-45deg);-ms-transform: rotate(-45deg);	-o-transform: rotate(-45deg); transform: rotate(-45deg);}
+#checklist-detail .list-inline>li, #checklist-detail .list-group{padding: 0px; margin-bottom: 4px;}
+#checklist-detail .step-group, #checklist-detail .step-group>li{padding: 5px 0px;}
+#checklist-detail .checklist-text{padding: 5px 0px;}
+#checklist-detail .decision-notice{padding-top: 15px;}
+#checklist-detail .decision-point{margin-top: -10px;}
+#checklist-detail .decision-point>ul>li{background-color: #ffffff; padding:15px 12px;}
+/*#checklist-detail .decision-point>ul>li:nth-child(even){background-color: #ffffff; padding:15px 12px;}
+#checklist-detail .decision-point>ul>li:nth-child(odd){background-color: #F0F0F0; padding:15px 12px;}*/
+#checklist-detail .group-child{margin-left: 40px;}
+#checklist-detail .glyphicon-asterisk{margin-right: 5px; font-size: 10px;}
+#checklist-detail .diamond-icon{background: url("../../img/diamond.png") no-repeat scroll center center; padding-right: 18px; margin-right: 10px;}
+#checklist-detail .assign{margin: -7px 0px 0px 0px; width: 138px;}
+#checklist-detail .qa-icon{padding:2px 6px; border:1px solid #e2e2e2; background-color:#4F81BD; color:#ffffff; font-size:13px; border-radius:6px; float: left;}
+#checklist-detail .data-icon{padding:5px 6px; border:1px solid #e2e2e2; background-color:#4F81BD; color:#ffffff; font-size:11px; border-radius:6px; float: left;}
+#checklist-detail .doted-line{padding-left: 0px; float: left; overflow: hidden; background: url('../../img/dot.jpg') repeat-x left 10px; width: 857px;}
+/*#checklist-detail .dot-icon{background: url("../../img/black-circle.png") no-repeat center center; padding: 14px 20px 6px 0px; float: left; width: 10px; height: 10px; margin-left: -5px;}
+#checklist-detail .left-side, #wrapper .rite-side{height: 1.2em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}*/
+#checklist-detail .left-side{max-width: 40%;float: left;min-width: 0%;padding: 0 10px 0 14px;background-color: #ffffff; text-align: justify; background-image: url("../../img/black-circle.png");background-repeat: no-repeat; background-position: 1px 6px;}
+#checklist-detail .rite-side{max-width: 40%; min-width: 0%; padding: 0 0 0 10px; background-color: #ffffff; float: right; word-wrap: break-word; text-align: justify;}
+#checklist-detail .logo-img{margin: 15px;}
+#checklist-detail .detail-heading span{color: #999;}
+#checklist-detail .panel{border: 1px solid #ddd !important;}

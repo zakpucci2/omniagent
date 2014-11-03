@@ -1,0 +1,44 @@
+2014-10-28 15:31:51 Notice: Notice (8): Undefined variable: UserCachedData in [/home/omnihustle/public_html/demo/app/View/Users/login_unlock.ctp, line 6]
+Trace:
+include - APP/View/Users/login_unlock.ctp, line 6
+View::_evaluate() - CORE/Cake/View/View.php, line 935
+View::_render() - CORE/Cake/View/View.php, line 897
+View::render() - CORE/Cake/View/View.php, line 466
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-10-28 15:31:51 Notice: Notice (8): Undefined variable: UserCachedData in [/home/omnihustle/public_html/demo/app/View/Users/login_unlock.ctp, line 18]
+Trace:
+include - APP/View/Users/login_unlock.ctp, line 18
+View::_evaluate() - CORE/Cake/View/View.php, line 935
+View::_render() - CORE/Cake/View/View.php, line 897
+View::render() - CORE/Cake/View/View.php, line 466
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-10-28 15:31:51 Notice: Notice (8): Undefined variable: UserCachedData in [/home/omnihustle/public_html/demo/app/View/Users/login_unlock.ctp, line 23]
+Trace:
+include - APP/View/Users/login_unlock.ctp, line 23
+View::_evaluate() - CORE/Cake/View/View.php, line 935
+View::_render() - CORE/Cake/View/View.php, line 897
+View::render() - CORE/Cake/View/View.php, line 466
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-10-28 15:31:51 Notice: Notice (8): Undefined variable: UserCachedData in [/home/omnihustle/public_html/demo/app/View/Users/login_unlock.ctp, line 35]
+Trace:
+include - APP/View/Users/login_unlock.ctp, line 35
+View::_evaluate() - CORE/Cake/View/View.php, line 935
+View::_render() - CORE/Cake/View/View.php, line 897
+View::render() - CORE/Cake/View/View.php, line 466
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+

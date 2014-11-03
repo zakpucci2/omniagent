@@ -1,0 +1,7 @@
+form label.error{
+   color:#FF0000;
+   font-size: 12px;
+   margin:0px;
+   padding: 0px;
+   font-weight: normal;
+}
